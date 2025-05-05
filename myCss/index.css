@@ -1,0 +1,67 @@
+
+#last-posts-section table {
+	box-shadow:5px 5px #b3b3b3;
+}
+
+#last-posts-section th {
+	background: var(--blue) url("../img/background.png") fixed;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding: 10px 10px;
+	color: white;
+}
+
+#last-posts-section tr {
+	border-bottom: 1px solid lightgrey;
+}
+
+#last-posts-section td {
+	font-size: 18px;
+	padding: 10px 10px;
+	background: white;
+}
+
+.heading {
+	padding: 10px 5px;
+	background: white;
+	box-shadow:5px 5px #b3b3b3;
+	border-left: 6px solid var(--blue);
+}
+
+.heading h2 a {
+	margin: 0;
+	color: var(--black);
+}
+
+.icofont-lock, .icofont-chat, .icofont-papers {
+	font-size: 40px;
+	color: var(--grey)
+}
+
+.category-name {
+	margin: 0;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+}
+
+.author-name {
+	margin: 0;
+	font-size: 18px;
+	font-weight: bold;
+	color: var(--blue);
+	display: block;
+}
+
+
+.pages .number {
+	line-height: 40px;
+	background: white;
+	color: var(--blue);
+	font-size: 18px;
+}
+
+.pages .active {
+	background: var(--black);
+	color: white;
+}

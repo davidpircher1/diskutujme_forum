@@ -1,0 +1,35 @@
+:root {
+	--blue: #3099FA;
+	--grey: #737373;
+	--lightblue: #DCEFFC;
+	--black: #1d1d1d;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background: var(--lightblue);
+}
+
+main {
+	min-height: calc(100vh - 350px);
+}
+
+/* Príklad na resetovanie marginov a paddingov */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box-shadow {
+	box-shadow:5px 5px #b3b3b3;
+}
+
+@media (max-width: 575px) {
+  .container {
+    width: 94%;
+  }
+}

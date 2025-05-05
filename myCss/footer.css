@@ -1,0 +1,39 @@
+footer {
+	width: 100%;
+	background: var(--black);
+	color: white;
+	border-top: 6px solid var(--blue);
+}
+
+footer p {
+	margin: 0;
+}
+
+#footer-logo {
+	border-right: 3px dashed white;
+}
+
+footer .bottom {
+	padding: 100Px 0px;
+}
+
+.bottom-text p {
+	margin: 14px 0px;
+	font-size: 19px;
+}
+
+.bottom-text > :first-child {
+	margin-top: 0;
+	color: var(--blue);
+}
+
+
+#copyright  {
+	font-size: 14px;
+}
+
+.dotted-effect {
+	padding: 75px 0px;
+	background-image: radial-gradient(#3099fa 2px, transparent 2px);
+	background-size: 32px 32px;
+}

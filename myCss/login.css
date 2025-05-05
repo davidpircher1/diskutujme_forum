@@ -1,0 +1,25 @@
+#table {
+	box-shadow:5px 5px #b3b3b3;
+	background: white;
+}
+
+.heading {
+	padding: 10px 5px;
+	background: white;
+	box-shadow:5px 5px #b3b3b3;
+	border-left: 6px solid var(--blue);
+}
+
+.heading h2 a {
+	margin: 0;
+	color: var(--black);
+}
+
+#table label, #table button{
+	font-size: 19px;
+}
+
+
+textarea {
+	resize: none;
+}

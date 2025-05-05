@@ -1,0 +1,55 @@
+header {
+    background: var(--black) url("../img/background.png") fixed;
+}
+
+.navigation {
+    background: inherit;
+    box-shadow: 0 0 1rem 0 rgba(0,0,0,.2);
+    position: relative;
+    z-index: 1;
+}
+
+.navigation:before {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    filter: blur(3px);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: inherit;
+    border-bottom: 3px solid var(--blue)
+}
+
+.nav-link {
+    font-size: 20px;
+    position: relative;
+    color: white;
+    font-weight: 400;
+}
+
+.nav-link:hover {
+    color: var(--blue);
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px; /* Výška podčiarknutia */
+    left: 0;
+    width: 0;
+    height: 2px; /* Dĺžka a hrúbka podčiarknutia */
+    background-color: var(--blue); /* Farba podčiarknutia */
+    transition: width 0.3s; /* Animácia nárastu dĺžky podčiarknutia */
+}
+
+.nav-link:hover::after {
+    width: 100%; /* Podčiarknutie sa rozťahuje na plnú šírku */
+}
+
+.header-presentation {
+    height: 250px;
+    background: linear-gradient(0deg,rgb(29,29,27) 15%,rgba(0,0,0,0) 100%);
+}
+
